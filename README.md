@@ -1,8 +1,3 @@
-Here's a comprehensive `README.md`, `unixbuild.sh`, `mingwbuild.sh`, and `requisites.md` for your C++ game project.
-
-### `README.md`
-
-```markdown
 # VeloSimul
 
 **VeloSimul** is a simple C++ game that simulates a player's movement on a 10x10 grid. The player can move up, down, left, or right using a menu-driven interface. The game demonstrates basic grid manipulation and player movement with velocity.
