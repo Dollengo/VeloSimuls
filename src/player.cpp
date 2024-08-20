@@ -4,17 +4,17 @@
 Player::Player(float startX, float startY, float velocity, char model)
     : x(startX), y(startY), velocity(velocity), model(model) {}
 
-// Move the player up
-void Player::moveUp() { x -= velocity; }
+// Move the player up (decrease y-coordinate)
+void Player::moveUp() { y -= velocity; }
 
-// Move the player down
-void Player::moveDown() { x += velocity; }
+// Move the player down (increase y-coordinate)
+void Player::moveDown() { y += velocity; }
 
-// Move the player right
-void Player::moveRight() { y += velocity; }
+// Move the player right (increase x-coordinate)
+void Player::moveRight() { x += velocity; }
 
-// Move the player left
-void Player::moveLeft() { y -= velocity; }
+// Move the player left (decrease x-coordinate)
+void Player::moveLeft() { x -= velocity; }
 
 // Get the current x position
 float Player::getX() const { return x; }

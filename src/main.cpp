@@ -32,8 +32,8 @@ void displayGrid(const Player &player) {
   }
 
   // Print the grid
-  for (int i = 0; i < GRID_WIDTH; ++i) {
-    for (int j = 0; j < GRID_HEIGHT; ++j) {
+  for (int j = 0; j < GRID_HEIGHT; ++j) { // Y-axis
+    for (int i = 0; i < GRID_WIDTH; ++i) { // X-axis
       std::cout << std::setw(2) << grid[i][j] << ' '; // Format spacing
     }
     std::cout << '\n';
